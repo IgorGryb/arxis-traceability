@@ -1,0 +1,56 @@
+{
+  "project_id": "PRJ-ARXIS-PROTOTYPE",
+  "claim_scope": "synthetic documentation-workflow demonstration",
+  "traceability_matrix": [
+    {
+      "requirement_id": "REQ-1",
+      "decision_ids": [
+        "DEC-1"
+      ],
+      "artifact_ids": [
+        "ART-1"
+      ],
+      "complete": true
+    },
+    {
+      "requirement_id": "REQ-2",
+      "decision_ids": [
+        "DEC-2"
+      ],
+      "artifact_ids": [
+        "ART-2"
+      ],
+      "complete": true
+    },
+    {
+      "requirement_id": "REQ-3",
+      "decision_ids": [
+        "DEC-3"
+      ],
+      "artifact_ids": [
+        "ART-3"
+      ],
+      "complete": true
+    }
+  ],
+  "coverage": 1.0,
+  "negative_test_detected": true,
+  "classifications": {
+    "ART-1": {
+      "suggested_type": "accessibility",
+      "confidence": "rule-match",
+      "human_review_required": true
+    },
+    "ART-2": {
+      "suggested_type": "energy",
+      "confidence": "rule-match",
+      "human_review_required": true
+    },
+    "ART-3": {
+      "suggested_type": "fire-safety",
+      "confidence": "rule-match",
+      "human_review_required": true
+    }
+  },
+  "prediction_passed": true
+}

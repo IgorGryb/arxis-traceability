@@ -1,0 +1,28 @@
+{
+  "project_id": "PRJ-ARXIS-PROTOTYPE",
+  "generated": "2026-10-25",
+  "data_class": "synthetic",
+  "artifacts": [
+    {
+      "artifact_id": "ART-D51703092B1E",
+      "path": "artifacts/results.json",
+      "sha256": "da04edba39ec2c32944167df2c843ab474a488ff74222616458f6bd2a1988977",
+      "validation_status": "tested",
+      "reproduce_command": "make reproduce"
+    },
+    {
+      "artifact_id": "ART-E9A79EDECE3A",
+      "path": "artifacts/traceability-matrix.json",
+      "sha256": "2671029896ca07663e6e5159c59f5c88d636bfbd8ee7a907fd560476295ea17b",
+      "validation_status": "tested",
+      "reproduce_command": "make reproduce"
+    },
+    {
+      "artifact_id": "ART-9AB42330F005",
+      "path": "data/sample_project.json",
+      "sha256": "6fc37dfdf7a29d7aa777277e8c1720c03ed52d71802cd546b487a523224f2b2a",
+      "validation_status": "tested",
+      "reproduce_command": "make reproduce"
+    }
+  ]
+}

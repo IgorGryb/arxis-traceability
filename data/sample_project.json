@@ -1,0 +1,66 @@
+{
+  "project": "Synthetic residence",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Provide step-free entrance"
+    },
+    {
+      "id": "REQ-2",
+      "text": "Limit operational energy demand"
+    },
+    {
+      "id": "REQ-3",
+      "text": "Document fire egress"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DEC-1",
+      "requirement_ids": [
+        "REQ-1"
+      ],
+      "text": "Use flush threshold and ramp"
+    },
+    {
+      "id": "DEC-2",
+      "requirement_ids": [
+        "REQ-2"
+      ],
+      "text": "Use high-performance envelope"
+    },
+    {
+      "id": "DEC-3",
+      "requirement_ids": [
+        "REQ-3"
+      ],
+      "text": "Provide protected egress route"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "ART-1",
+      "decision_ids": [
+        "DEC-1"
+      ],
+      "version": "2",
+      "name": "access-plan-v2.pdf"
+    },
+    {
+      "id": "ART-2",
+      "decision_ids": [
+        "DEC-2"
+      ],
+      "version": "3",
+      "name": "energy-note-v3.pdf"
+    },
+    {
+      "id": "ART-3",
+      "decision_ids": [
+        "DEC-3"
+      ],
+      "version": "1",
+      "name": "fire-strategy-v1.pdf"
+    }
+  ]
+}

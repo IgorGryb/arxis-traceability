@@ -1,0 +1,32 @@
+[
+  {
+    "requirement_id": "REQ-1",
+    "decision_ids": [
+      "DEC-1"
+    ],
+    "artifact_ids": [
+      "ART-1"
+    ],
+    "complete": true
+  },
+  {
+    "requirement_id": "REQ-2",
+    "decision_ids": [
+      "DEC-2"
+    ],
+    "artifact_ids": [
+      "ART-2"
+    ],
+    "complete": true
+  },
+  {
+    "requirement_id": "REQ-3",
+    "decision_ids": [
+      "DEC-3"
+    ],
+    "artifact_ids": [
+      "ART-3"
+    ],
+    "complete": true
+  }
+]
