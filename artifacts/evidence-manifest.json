@@ -6,14 +6,14 @@
     {
       "artifact_id": "ART-D51703092B1E",
       "path": "artifacts/results.json",
-      "sha256": "da04edba39ec2c32944167df2c843ab474a488ff74222616458f6bd2a1988977",
+      "sha256": "de6520c84c470c77994b71da2db574b90ddf529d64cda1f07c4fd071f65cb585",
       "validation_status": "tested",
       "reproduce_command": "make reproduce"
     },
     {
       "artifact_id": "ART-E9A79EDECE3A",
       "path": "artifacts/traceability-matrix.json",
-      "sha256": "2671029896ca07663e6e5159c59f5c88d636bfbd8ee7a907fd560476295ea17b",
+      "sha256": "46958d2f7ebb54e163ba0de83b4024d8396b6eefe18152f693f4733eff318f3c",
       "validation_status": "tested",
       "reproduce_command": "make reproduce"
     },

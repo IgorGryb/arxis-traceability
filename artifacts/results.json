@@ -10,6 +10,7 @@
       "artifact_ids": [
         "ART-1"
       ],
+      "uncovered_decision_ids": [],
       "complete": true
     },
     {
@@ -20,6 +21,7 @@
       "artifact_ids": [
         "ART-2"
       ],
+      "uncovered_decision_ids": [],
       "complete": true
     },
     {
@@ -30,6 +32,7 @@
       "artifact_ids": [
         "ART-3"
       ],
+      "uncovered_decision_ids": [],
       "complete": true
     }
   ],
