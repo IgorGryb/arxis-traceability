@@ -43,3 +43,9 @@ Traceability completeness does not prove correctness of engineering design or co
 Walk through a cross-discipline change and test whether each handoff preserves approval authority.
 
 [Full management dossier](MANAGEMENT-DOSSIER.md)
+
+## Technical and cross-domain foundation
+
+This design preserves the technical, product, operating and financial strands together. Candidate connections: Infrastructure design and traceable change governance; Management metrics backed by financial and data controls.
+
+The full dossier states the source programs, mechanisms, integration risks and comparison tests. These are development options, not established synergistic returns.

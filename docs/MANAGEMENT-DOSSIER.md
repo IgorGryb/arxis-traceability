@@ -121,3 +121,49 @@ Each slide and dashboard number must point back to this dossier and its model/ru
 ## Provenance and authoring boundary
 
 This management model was authored with an AI agent from existing project sources, course materials and the approved user direction. It demonstrates the documented design and review process, not independent proof that the user performed every implementation step. All economic sample cases are synthetic.
+
+## Multidimensional reinforcement and technical depth
+
+Management connects technical/domain depth to product, operating and capital decisions; it does not replace that depth. The following application mappings are candidate design hypotheses, not proven benefits or claims of independent competence.
+
+[Canonical mechanisms and evidence boundaries](../../../00.%20ARCHIVE%20SYSTEM/portfolio/REINFORCEMENT-MAP.yaml). [Full qualification records and source links](../../../00.%20ARCHIVE%20SYSTEM/portfolio/QUALIFICATION-INVENTORY.yaml). Program metadata has been reviewed; module-level support is not asserted for these candidate links.
+
+### RF-04 — Infrastructure design and traceable change governance
+
+**Career anchors:** EXP-SDG-2021, EXP-PORTFOLIO-2023.
+**Learning sources (official titles):** Construction Management; Commercial Real Estate Modeling; IBM Systems Analyst; IBM AI Product Manager.
+
+| Dimension | Proposed application |
+|---|---|
+| Technical | Requirements/decision/version graph, classification confidence, document lineage and access boundaries. |
+| Product | A controlled coordination package for one design/change use case, not claimed full BIM integration. |
+| Operating | Define authority to approve changes, affected deliverables and the downstream recipient. |
+| Finance | Estimate rework/coordination cost and delay exposure; distinguish estimates from achieved savings. |
+
+**Reinforcement mechanism (hypothesis):** Domain-aware change control can make documentation decisions visible to cost, schedule and delivery owners.
+
+**Failure/cost of integration:** Incomplete document coverage or wrong automated classification can hide a material dependency.
+
+**Comparison to run:** Compare file-list review with traceable change review on the same synthetic change set, including missing and misclassified documents.
+
+**Next option and activation condition:** Expand the document class only after traceability and exception handling survive a review.
+
+### RF-06 — Management metrics backed by financial and data controls
+
+**Career anchors:** EXP-BNP-2025, EXP-SANTANDER-2022.
+**Learning sources (official titles):** Microsoft Power BI Data Analyst; Microsoft Power BI Developer and Architect; BI Essentials for Finance Analysts (Power BI Edition); IBM Data Architecture; Business Analytics with Excel.
+
+| Dimension | Proposed application |
+|---|---|
+| Technical | Metric lineage, schema/grain, denominator, reconciliation, access and stale-data controls. |
+| Product | A decision dashboard and memo derived from canonical models, not an independent narrative. |
+| Operating | Metric owner handles exceptions and version changes; decision owner accepts the reporting scope. |
+| Finance | Separate cash, value, revenue, volume and estimates; define perspective and period before aggregation. |
+
+**Reinforcement mechanism (hypothesis):** Shared definitions connect technical data quality with management interpretation and financial control.
+
+**Failure/cost of integration:** A polished dashboard can conceal incompatible populations or denominators; centralization creates common-mode errors.
+
+**Comparison to run:** Compare dashboard output to underlying records; inject missing/duplicate/stale data and test invalidation.
+
+**Next option and activation condition:** Reuse a metric across projects only when its unit, grain and decision meaning match.
