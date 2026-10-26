@@ -10,12 +10,29 @@ def classify(name,text=""):
         if any(k in value for k in keys): return {"suggested_type":label,"confidence":"rule-match","human_review_required":True}
     return {"suggested_type":"unclassified","confidence":"none","human_review_required":True}
 def trace(project):
+    for category in ('requirements','decisions','artifacts'):
+        ids=[x['id'] for x in project[category]]
+        if len(ids)!=len(set(ids)): raise ValueError('Duplicate '+category+' identifier')
+    req_ids={r['id'] for r in project['requirements']}; dec_ids={d['id'] for d in project['decisions']}
+    if any(not set(d['requirement_ids'])<=req_ids for d in project['decisions']): raise ValueError('Dangling requirement reference')
+    if any(not set(a['decision_ids'])<=dec_ids for a in project['artifacts']): raise ValueError('Dangling decision reference')
     decisions={d["id"]:d for d in project["decisions"]}; matrix=[]
     for req in project["requirements"]:
         ds=[d["id"] for d in project["decisions"] if req["id"] in d["requirement_ids"]]
         arts=[a["id"] for a in project["artifacts"] if any(d in a["decision_ids"] for d in ds)]
-        matrix.append({"requirement_id":req["id"],"decision_ids":ds,"artifact_ids":arts,"complete":bool(ds and arts)})
+        uncovered=[d for d in ds if not any(d in a['decision_ids'] for a in project['artifacts'])]
+        matrix.append({"requirement_id":req["id"],"decision_ids":ds,"artifact_ids":arts,"uncovered_decision_ids":uncovered,"complete":bool(ds) and not uncovered})
     return matrix
+def assess_change(project,requirement_id,actor,authorized_approvers,expected_versions):
+    matrix=trace(project)
+    row=next((r for r in matrix if r['requirement_id']==requirement_id),None)
+    if row is None: raise ValueError('Unknown requirement')
+    if actor not in authorized_approvers: raise ValueError('Unauthorized decision actor')
+    affected=[a for a in project['artifacts'] if a['id'] in row['artifact_ids']]
+    stale=[a['id'] for a in affected if expected_versions.get(a['id'])!=a['version']]
+    return dict(requirement_id=requirement_id,affected_decisions=row['decision_ids'],affected_artifacts=row['artifact_ids'],
+                stale_versions=stale,status='pause' if stale or not row['complete'] else 'ready-for-human-impact-review',
+                approval_granted=False)
 def run(root: Path):
     (root/"data").mkdir(parents=True,exist_ok=True); (root/"artifacts").mkdir(parents=True,exist_ok=True)
     (root/"data/sample_project.json").write_text(json.dumps(FIXTURE,indent=2),encoding="utf-8")

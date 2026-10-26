@@ -1,0 +1,41 @@
+{
+  "id": "ARXIS-MANAGEMENT-REVIEW-001",
+  "normal": {
+    "requirement_id": "REQ-1",
+    "affected_decisions": [
+      "DEC-1"
+    ],
+    "affected_artifacts": [
+      "ART-1"
+    ],
+    "stale_versions": [],
+    "status": "ready-for-human-impact-review",
+    "approval_granted": false
+  },
+  "stale": {
+    "requirement_id": "REQ-1",
+    "affected_decisions": [
+      "DEC-1"
+    ],
+    "affected_artifacts": [
+      "ART-1"
+    ],
+    "stale_versions": [
+      "ART-1"
+    ],
+    "status": "pause",
+    "approval_granted": false
+  },
+  "uncovered_decision_detected": true,
+  "costs": {
+    "base": 250,
+    "bottleneck": 490,
+    "unit": "synthetic EUR/change"
+  },
+  "model_sha256": "fd4f2316adbecfd4f4600871a91563e19f634fc979300d77831694ccae036d1f",
+  "limitations": [
+    "Structural traceability only",
+    "Authority input is not authentication",
+    "No actual drawings or engineering approval"
+  ]
+}
