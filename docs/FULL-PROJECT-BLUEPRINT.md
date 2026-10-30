@@ -50,9 +50,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** construction workflow problem brief  
 **Acceptance test:** A practitioner confirms the workflow and identifies the most costly missing-decision pattern.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-101`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** Construction course materials are incomplete and practitioner validation is absent.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.2 market-business
 
@@ -62,9 +62,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** business case and alternative map  
 **Acceptance test:** A buyer/user interview validates priority and rejects unsupported market-size or savings claims.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-195`, `C419-206`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** Existing concept has broad revenue/market claims that require revalidation.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.3 product-service
 
@@ -74,9 +74,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** product and service blueprint  
 **Acceptance test:** Five role scenarios reach correct authoritative state and reveal missing/conflicting links.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-179`, `C419-206`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L3 → target L5  
-**Open gap:** Current prototype covers a synthetic graph, not full role journeys.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.4 operating-model
 
@@ -86,9 +86,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** document-control runbook  
 **Acceptance test:** Tabletop exercise processes a late RFI, superseded issue and unauthorized change without ambiguity.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `N-32`, `C419-101`, `C419-110`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** N-31/N-32 provide only incomplete source packs; actual firm process review is required.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.5 data-technology
 
@@ -98,9 +98,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** reference architecture and executable trace graph  
 **Acceptance test:** Broken links, permission bypass, conflicting versions and rebuild are tested; integrations remain explicit stubs.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-163`, `C419-179`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L4 → target L5  
-**Open gap:** The narrow graph is tested; persistence, access control and realistic document volume are not.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.6 analytical-model
 
@@ -110,9 +110,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** classification and prioritization evaluation  
 **Acceptance test:** Blinded fixture shows acceptable recall/precision and every uncertain recommendation is human-reviewed.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-190`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** Current rule classifier lacks representative labeled documents.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.7 finance-economics
 
@@ -122,9 +122,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** cost/schedule/finance impact model  
 **Acceptance test:** Sensitivity and practitioner review identify decision-relevant ranges without claiming realized savings.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `N-34`, `C419-195`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L1 → target L5  
-**Open gap:** N-33/N-34 archives are incomplete and no project finance fixture is calibrated.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.8 risk-security-compliance
 
@@ -134,9 +134,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** information governance and AI-assist policy  
 **Acceptance test:** Unauthorized changes fail, audit trail reconstructs decisions and practitioner reviews accountability boundaries.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-190`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** No project-specific regulatory/contractual review or RBAC implementation.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.9 delivery-governance
 
@@ -146,9 +146,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** delivery governance and capability register  
 **Acceptance test:** A proposed CAD/BIM integration is routed through evidence, ADR and interface test without being marked implemented.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-110`, `C419-179`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L3 → target L5  
-**Open gap:** Current documentation mixes far-future vision with near-term prototype boundaries.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.10 evidence-validation-publication
 
@@ -158,9 +158,9 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** validated residential case study  
 **Acceptance test:** Claim audit removes unsupported integration, award, market and savings statements; user approves final story.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-206`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L6  
-**Open gap:** Existing snapshot requires source and claim correction before publication.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ## 3. Operating state model
 
