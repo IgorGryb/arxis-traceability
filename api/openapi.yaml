@@ -1,0 +1,84 @@
+openapi: 3.1.0
+info:
+  title: ARXIS AEC Architecture Traceability & Change Governance API
+  description: Graph-theoretic dependency tracking, topological change blast-radius analysis, and ISO 19650 RACI sign-off gates for complex capital projects.
+  version: 1.0.0
+  contact:
+    name: Igor Grybek
+    url: https://github.com/IgorGryb/arxis-traceability
+paths:
+  /v1/change-requests/submit:
+    post:
+      summary: Submit an Engineering Change Request (ECR) for topological impact analysis
+      operationId: submitChangeRequest
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [ecr_id, target_requirement_id, justification, proposed_by]
+              properties:
+                ecr_id:
+                  type: string
+                  example: "ECR-STRUCT-012"
+                target_requirement_id:
+                  type: string
+                  example: "REQ-LOAD-004"
+                justification:
+                  type: string
+                  example: "Increase floor load capacity for server room installation."
+                proposed_by:
+                  type: string
+                  example: "Lead Structural Engineer"
+      responses:
+        '200':
+          description: Change impact blast radius computed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ecr_id:
+                    type: string
+                  impacted_decisions_count:
+                    type: integer
+                    example: 3
+                  impacted_artifacts:
+                    type: array
+                    items:
+                      type: string
+                      example: "ART-BIM-MEP-04"
+                  review_state:
+                    type: string
+                    example: "PENDING_DISCIPLINE_REVIEW"
+                  topological_depth:
+                    type: integer
+                    example: 4
+
+  /v1/gates/sign-off:
+    post:
+      summary: Execute formal RACI sign-off for a design baseline
+      operationId: executeRaciSignOff
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [artifact_id, approver_actor, discipline, version_hash]
+              properties:
+                artifact_id:
+                  type: string
+                approver_actor:
+                  type: string
+                discipline:
+                  type: string
+                  enum: [Architectural, Structural, MEP, ProjectManagement]
+                version_hash:
+                  type: string
+      responses:
+        '200':
+          description: Sign-off recorded; deliverable marked Published
+        '403':
+          description: Actor lacks registered discipline authority

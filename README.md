@@ -1,8 +1,11 @@
 # ARXIS — Architecture Traceability & Change Governance Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![CI](https://github.com/IgorGryb/arxis-traceability/actions/workflows/ci.yml/badge.svg)](https://github.com/IgorGryb/arxis-traceability/actions)
 [![Tests](https://img.shields.io/badge/Tests-Passing%20(7%2F7)-success.svg)](tests/)
 [![Architecture](https://img.shields.io/badge/Architecture-Dependency%20DAG-orange.svg)](#solution--decision-architecture)
+[![OpenAPI 3.1](https://img.shields.io/badge/OpenAPI-3.1%20Contract-green.svg)](api/openapi.yaml)
+[![ADRs](https://img.shields.io/badge/ADR-Architecture%20Decisions-purple.svg)](docs/adr/)
 [![Status](https://img.shields.io/badge/Status-R%26D%20Reference%20Architecture-informational.svg)](#research-integrity--disclaimer)
 
 > **Architectural Mission:** Eliminating costly clash rework and uncoordinated change orders in complex capital projects by mapping multi-disciplinary engineering dependencies into a Directed Acyclic Graph (DAG) with rigorous authorization gates.
