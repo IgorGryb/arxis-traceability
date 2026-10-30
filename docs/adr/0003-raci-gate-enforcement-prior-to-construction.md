@@ -16,3 +16,4 @@ On construction projects, disputes over delay claims and variation orders often 
 ## Decision Outcome
 Chosen Option: **Programmatic RACI Gate Controller**.
 The engine verifies that each actor passing an authorization token holds registered authority for the specific discipline (Architectural, Structural, MEP). If an unauthorized actor attempts sign-off, or if expected baseline versions do not match, the workflow halts and logs a security exception.
+

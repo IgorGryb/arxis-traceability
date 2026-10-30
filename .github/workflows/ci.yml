@@ -27,3 +27,4 @@ jobs:
     - name: Run Graph Traceability & DAG Regression Suite
       run: |
         pytest -v --tb=short
+

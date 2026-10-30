@@ -25,3 +25,4 @@ When a change request ($v \in \mathcal{V}_{\text{ECR}}$) is submitted targeting 
 ### Positive Consequences
 - Guarantees 100% dependency coverage.
 - Prevents uncoordinated site work by freezing downstream drawings until re-certified.
+

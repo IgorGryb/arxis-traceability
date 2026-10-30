@@ -19,3 +19,4 @@ ARXIS enforces strict admission criteria:
 - Any deliverable referencing an unapproved decision is rejected.
 - When an engineering revision is published, the prior version is archived and locked.
 - Contractors verify field models against the centralized SHA-256 manifest before beginning physical execution.
+
