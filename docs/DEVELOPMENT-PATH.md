@@ -48,14 +48,14 @@ Define authoritative document versions, approval rights, retention, access, audi
 | finance-risk | N-33 — Construction Management k.3: Construction Cost Estimating and Cost Control | manifest-incomplete; not-listed | map document changes to cost exposure | cost-impact model |
 | finance-risk | N-34 — Construction Management k.4: Construction Finance | manifest-incomplete; not-listed | create project-finance assumptions sheet | finance appendix |
 | business | N-35 — Construction Management k.5: The Construction Industry: The Way Forward | manifest-incomplete; not-listed | frame value proposition and market constraints | business case |
-| technology | C419-179 — Generative AI: Advancing Systems Analysis & Architecture | manifest-complete; platform-listed | formalize requirements and interface boundaries | architecture specification |
-| technology | C419-164 — Modern Data Architecture Fundamentals with Microsoft Fabric | manifest-complete; platform-listed | select storage and lineage pattern | architecture decision record |
-| governance | C419-163 — Microsoft Fabric: Data Governance, Security, and Analytics | manifest-complete; platform-listed | define document classification and RBAC | governance policy |
-| operations | C419-101 — Introduction to Project Management | manifest-complete; platform-listed | define gates and owners | delivery runbook |
-| operations | C419-110 — Project Management Capstone | manifest-complete; platform-listed | execute an end-to-end review scenario | validated demo |
-| business | C419-206 — Building Powerful Reports and Dashboards in Power BI | manifest-complete; platform-listed | build completeness and issue dashboard | review surface |
-| governance | C419-190 — AI Strategy and Governance | manifest-complete; platform-listed | define classifier accountability | AI-assist policy |
-| finance-risk | C419-195 — Financial Acumen for Non-Financial Managers | manifest-complete; local certificate linked | translate delay/rework scenarios into statements | impact memo |
+| technology | Generative AI: Advancing Systems Analysis & Architecture | verified-specification | formalize requirements and interface boundaries | architecture specification |
+| technology | Modern Data Architecture Fundamentals with Microsoft Fabric | verified-specification | select storage and lineage pattern | architecture decision record |
+| governance | Microsoft Fabric: Data Governance, Security, and Analytics | verified-specification | define document classification and RBAC | governance policy |
+| operations | Introduction to Project Management | verified-specification | define gates and owners | delivery runbook |
+| operations | Project Management Capstone | verified-specification | execute an end-to-end review scenario | validated demo |
+| business | Building Powerful Reports and Dashboards in Power BI | verified-specification | build completeness and issue dashboard | review surface |
+| governance | AI Strategy and Governance | verified-specification | define classifier accountability | AI-assist policy |
+| finance-risk | Financial Acumen for Non-Financial Managers | manifest-complete; local certificate linked | translate delay/rework scenarios into statements | impact memo |
 
 ## Execution sequence
 

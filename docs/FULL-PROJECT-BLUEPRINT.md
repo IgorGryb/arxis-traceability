@@ -50,7 +50,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** construction workflow problem brief  
 **Acceptance test:** A practitioner confirms the workflow and identifies the most costly missing-decision pattern.  
-**Course inputs:** `N-31`, `C419-101`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-101`  
 **Maturity:** current L2 → target L5  
 **Open gap:** Construction course materials are incomplete and practitioner validation is absent.
 
@@ -62,7 +62,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** business case and alternative map  
 **Acceptance test:** A buyer/user interview validates priority and rejects unsupported market-size or savings claims.  
-**Course inputs:** `N-35`, `C419-195`, `C419-206`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-195`, `C419-206`  
 **Maturity:** current L2 → target L5  
 **Open gap:** Existing concept has broad revenue/market claims that require revalidation.
 
@@ -74,7 +74,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** product and service blueprint  
 **Acceptance test:** Five role scenarios reach correct authoritative state and reveal missing/conflicting links.  
-**Course inputs:** `C419-101`, `C419-179`, `C419-206`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-179`, `C419-206`  
 **Maturity:** current L3 → target L5  
 **Open gap:** Current prototype covers a synthetic graph, not full role journeys.
 
@@ -86,7 +86,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** document-control runbook  
 **Acceptance test:** Tabletop exercise processes a late RFI, superseded issue and unauthorized change without ambiguity.  
-**Course inputs:** `N-31`, `N-32`, `C419-101`, `C419-110`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `N-32`, `C419-101`, `C419-110`  
 **Maturity:** current L2 → target L5  
 **Open gap:** N-31/N-32 provide only incomplete source packs; actual firm process review is required.
 
@@ -98,7 +98,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** reference architecture and executable trace graph  
 **Acceptance test:** Broken links, permission bypass, conflicting versions and rebuild are tested; integrations remain explicit stubs.  
-**Course inputs:** `C419-164`, `C419-163`, `C419-179`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-163`, `C419-179`  
 **Maturity:** current L4 → target L5  
 **Open gap:** The narrow graph is tested; persistence, access control and realistic document volume are not.
 
@@ -110,7 +110,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** classification and prioritization evaluation  
 **Acceptance test:** Blinded fixture shows acceptable recall/precision and every uncertain recommendation is human-reviewed.  
-**Course inputs:** `C419-179`, `C419-190`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-190`  
 **Maturity:** current L2 → target L5  
 **Open gap:** Current rule classifier lacks representative labeled documents.
 
@@ -122,7 +122,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** cost/schedule/finance impact model  
 **Acceptance test:** Sensitivity and practitioner review identify decision-relevant ranges without claiming realized savings.  
-**Course inputs:** `N-33`, `N-34`, `C419-195`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `N-34`, `C419-195`  
 **Maturity:** current L1 → target L5  
 **Open gap:** N-33/N-34 archives are incomplete and no project finance fixture is calibrated.
 
@@ -134,7 +134,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** information governance and AI-assist policy  
 **Acceptance test:** Unauthorized changes fail, audit trail reconstructs decisions and practitioner reviews accountability boundaries.  
-**Course inputs:** `C419-163`, `C419-190`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-190`  
 **Maturity:** current L2 → target L5  
 **Open gap:** No project-specific regulatory/contractual review or RBAC implementation.
 
@@ -146,7 +146,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** delivery governance and capability register  
 **Acceptance test:** A proposed CAD/BIM integration is routed through evidence, ADR and interface test without being marked implemented.  
-**Course inputs:** `C419-101`, `C419-110`, `C419-179`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-110`, `C419-179`  
 **Maturity:** current L3 → target L5  
 **Open gap:** Current documentation mixes far-future vision with near-term prototype boundaries.
 
@@ -158,7 +158,7 @@ The credible near-term value is traceable architectural decision documentation f
 
 **Required artifact:** validated residential case study  
 **Acceptance test:** Claim audit removes unsupported integration, award, market and savings statements; user approves final story.  
-**Course inputs:** `C419-110`, `C419-206`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-206`  
 **Maturity:** current L2 → target L6  
 **Open gap:** Existing snapshot requires source and claim correction before publication.
 
@@ -227,19 +227,19 @@ The prediction, threshold and interpretation owner must be recorded before each 
 
 | Mapping | Layer | Course | Archive state | Practice/test | Evidence target |
 |---|---|---|---|---|---|
-| PRJSRC-0039 | operations | N-31 — Construction Management k.1: Construction Project Management | manifest-incomplete | map roles and delivery method into workflow | stakeholder/service blueprint |
-| PRJSRC-0040 | operations | N-32 — Construction Management k.2: Construction Scheduling | manifest-incomplete | link decisions and artifacts to schedule activities | schedule traceability test |
-| PRJSRC-0041 | finance-risk | N-33 — Construction Management k.3: Construction Cost Estimating and Cost Control | manifest-incomplete | map document changes to cost exposure | cost-impact model |
-| PRJSRC-0042 | finance-risk | N-34 — Construction Management k.4: Construction Finance | manifest-incomplete | create project-finance assumptions sheet | finance appendix |
-| PRJSRC-0043 | business | N-35 — Construction Management k.5: The Construction Industry: The Way Forward | manifest-incomplete | frame value proposition and market constraints | business case |
-| PRJSRC-0044 | technology | C419-179 — Generative AI: Advancing Systems Analysis & Architecture | manifest-complete | formalize requirements and interface boundaries | architecture specification |
-| PRJSRC-0045 | technology | C419-164 — Modern Data Architecture Fundamentals with Microsoft Fabric | manifest-complete | select storage and lineage pattern | architecture decision record |
-| PRJSRC-0046 | governance | C419-163 — Microsoft Fabric: Data Governance, Security, and Analytics | manifest-complete | define document classification and RBAC | governance policy |
-| PRJSRC-0047 | operations | C419-101 — Introduction to Project Management | manifest-complete | define gates and owners | delivery runbook |
-| PRJSRC-0048 | operations | C419-110 — Project Management Capstone | manifest-complete | execute an end-to-end review scenario | validated demo |
-| PRJSRC-0049 | business | C419-206 — Building Powerful Reports and Dashboards in Power BI | manifest-complete | build completeness and issue dashboard | review surface |
-| PRJSRC-0050 | governance | C419-190 — AI Strategy and Governance | manifest-complete | define classifier accountability | AI-assist policy |
-| PRJSRC-0051 | finance-risk | C419-195 — Financial Acumen for Non-Financial Managers | manifest-complete | translate delay/rework scenarios into statements | impact memo |
+| MOD-SPEC | operations | N-31 — Construction Management k.1: Construction Project Management | manifest-incomplete | map roles and delivery method into workflow | stakeholder/service blueprint |
+| MOD-SPEC | operations | N-32 — Construction Management k.2: Construction Scheduling | manifest-incomplete | link decisions and artifacts to schedule activities | schedule traceability test |
+| MOD-SPEC | finance-risk | N-33 — Construction Management k.3: Construction Cost Estimating and Cost Control | manifest-incomplete | map document changes to cost exposure | cost-impact model |
+| MOD-SPEC | finance-risk | N-34 — Construction Management k.4: Construction Finance | manifest-incomplete | create project-finance assumptions sheet | finance appendix |
+| MOD-SPEC | business | N-35 — Construction Management k.5: The Construction Industry: The Way Forward | manifest-incomplete | frame value proposition and market constraints | business case |
+| MOD-SPEC | technology | Generative AI: Advancing Systems Analysis & Architecture | manifest-complete | formalize requirements and interface boundaries | architecture specification |
+| MOD-SPEC | technology | Modern Data Architecture Fundamentals with Microsoft Fabric | manifest-complete | select storage and lineage pattern | architecture decision record |
+| MOD-SPEC | governance | Microsoft Fabric: Data Governance, Security, and Analytics | manifest-complete | define document classification and RBAC | governance policy |
+| MOD-SPEC | operations | Introduction to Project Management | manifest-complete | define gates and owners | delivery runbook |
+| MOD-SPEC | operations | Project Management Capstone | manifest-complete | execute an end-to-end review scenario | validated demo |
+| MOD-SPEC | business | Building Powerful Reports and Dashboards in Power BI | manifest-complete | build completeness and issue dashboard | review surface |
+| MOD-SPEC | governance | AI Strategy and Governance | manifest-complete | define classifier accountability | AI-assist policy |
+| MOD-SPEC | finance-risk | Financial Acumen for Non-Financial Managers | manifest-complete | translate delay/rework scenarios into statements | impact memo |
 
 All rows above currently mean source routing. They become competence evidence only after the stated practice/test is executed and recorded.
 
