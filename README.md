@@ -73,7 +73,7 @@ ARXIS provides a centralized, deterministic traceability graph and change-govern
 ## 5-Dimensional Management Model
 
 ### 1. Technical Architecture
-- **Graph Core:** Python (NetworkX) and directed graph structures modeling complex hierarchical dependencies across building systems.
+- **Graph Core:** Pure Python standard library directed graph structures modeling complex hierarchical dependencies across building systems.
 - **Traceability Classifier:** Automated rule-based engine classifying revisions into minor adjustments, major coordinate alterations, and critical structural changes.
 
 ### 2. Operating Model & Change Control
