@@ -12,6 +12,14 @@ An operating model for traceable design documentation and controlled project cha
 
 The design connects source evidence, explicit assumptions, operating ownership and model checks. Its primary output is a decision package that can be handed to an execution team.
 
+## Source vision and first use
+
+A collaborative architectural-design environment for developing, explaining and coordinating concepts across people and disciplines.
+
+One project change: trace requirement, decision, document version, reviewer and schedule/cost consequence against a simple file-list baseline.
+
+**Commercial hypothesis:** A team or project subscription for architecture practices, with onboarding and migration cost explicit; adoption and price are unvalidated.
+
 ## Key decision
 
 Use one synthetic residential case and document handoffs before adding integrations or AI beyond assistance.
@@ -31,6 +39,12 @@ Estimate coordination and rework cost from hours per change × loaded rate. Avoi
 Testable hypothesis: Explicit ownership and dependency mapping reduce uncontrolled version drift.
 
 Negative check: Delete a decision link or change a requirement; release gate must fail and identify affected artifacts.
+
+## Technology and evidence status
+
+**Implemented:** A small synthetic requirement-to-decision traceability prototype; no CAD/BIM/GIS integration.
+**Designed standard architecture:** Versioned documents, structured metadata, dependency tracking, role-based approvals, audit logs and exchange interfaces.
+**Deferred:** CAD/BIM/GIS connectivity, multimodal AI, simulation, blockchain provenance and creator marketplace.
 
 ## Outcome and limits
 

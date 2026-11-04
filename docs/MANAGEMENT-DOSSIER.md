@@ -1,16 +1,21 @@
 # ARXIS — management and operating dossier
 
-Project: Arxa Group Systems Architecture. Status: Validated Proprietary Architecture & Reference Implementation.
+Project: `PRJ-ARXIS-PROTOTYPE`. Revised 2026-11-04. Status: internally specified design and bounded test; not a deployed service. Source concept: `SRC-PRJ-ARXIS-DOC`. Presentation layer: `canonical-venture`. Methods: M-SIPOC, M-RACI, M-MOSCOW, M-FEASIBILITY, M-MEASURE.
 
 ## Decision and business model
 
 An operating model for traceable design documentation and controlled project change.
 
+**Source-root business vision (historical concept):** A collaborative architectural-design environment for developing, explaining and coordinating concepts across people and disciplines.
+**First bounded use:** One project change: trace requirement, decision, document version, reviewer and schedule/cost consequence against a simple file-list baseline.
 **Problem:** A changed requirement can leave inconsistent decisions, versions and deliverables in circulation.
 **Customer / decision user:** Design lead, documentation coordinator and project reviewer
 **Payer:** Project organization; external service pricing untested
 **Value proposition (hypothesis):** Visible ownership, approval status and downstream impact for every material change.
 
+**Commercial model (hypothesis):** A team or project subscription for architecture practices, with onboarding and migration cost explicit; adoption and price are unvalidated.
+
+**Economic drivers:** hours per change and review; rework and delay exposure; document maintenance; onboarding and integration cost; team subscription hypothesis.
 **Alternatives:**
 
 - Shared folders and email: low friction, weak approval trace
@@ -28,6 +33,16 @@ Market size, paid demand, channel conversion and real service delivery are not e
 | ARXIS-REQ-01 | Every released artifact has an approved version | Reviewer checks the corresponding model/process step; records source, exception and outcome. |
 | ARXIS-REQ-02 | Every Must requirement has a decision and deliverable link | Reviewer checks the corresponding model/process step; records source, exception and outcome. |
 | ARXIS-REQ-03 | A changed requirement identifies affected downstream artifacts | Reviewer checks the corresponding model/process step; records source, exception and outcome. |
+
+## Five-dimensional operating model
+
+| Dimension | Bounded design |
+|---|---|
+| Technical | Versioned requirement/decision/artifact records and impact queries. |
+| Business and product | Collaborative design-governance subscription hypothesis with a narrow change-review entry point. |
+| Operating | Design owner, discipline reviewer and project sponsor retain explicit approval rights. |
+| Financial | Model review effort, rework, delay and contingency as scenarios rather than savings. |
+| Risk and governance | Check broken links, conflicting versions, permissions and engineering-authority boundaries. |
 
 Should: export a decision memo and traceability view. Could: automate repetitive updates after correctness is established.
 **Will not do:** Certified architectural design, full CAD/BIM/GIS integration, autonomous approval.
@@ -68,7 +83,7 @@ Roles are proposed functions, not claims of an existing staffed organization. Re
 | Evaluation | Results and limitations | Decision owner | M-MEASURE | Dashboard + PowerPoint storyboard | Decision memo | Recommendation conditional on evidence | Change owner |
 | Change management | New source, exception or decision | Change owner | M-RACI | Git + local change log | Impact and revised baseline | Dependent outputs marked stale/rechecked | Next stage owner |
 
-Tool configuration is proposed, not connected. Local Markdown/YAML is authoritative. Cloud tools require a separate data-sharing decision. See [toolchain](#).
+Tool configuration is proposed, not connected. Local Markdown/YAML is authoritative. Cloud tools require a separate data-sharing decision. See [toolchain](../../../00.%20ARCHIVE%20SYSTEM/portfolio/TOOLCHAIN-AND-HANDOFF.md).
 
 ## Financial and operating economics
 
@@ -77,6 +92,10 @@ Estimate coordination and rework cost from hours per change × loaded rate. Avoi
 Estimates must disclose cost population, currency, horizon and baseline. Sensitivity changes one driver or a declared scenario while other external assumptions remain equal. Missing required input makes the result unavailable. No forecast is reported as a realized business result.
 
 ## Technology management and build/buy/partner
+
+**Implemented baseline:** A small synthetic requirement-to-decision traceability prototype; no CAD/BIM/GIS integration.
+**Standard reference architecture (designed, not deployed):** Versioned documents, structured metadata, dependency tracking, role-based approvals, audit logs and exchange interfaces.
+**Deferred extensions:** CAD/BIM/GIS connectivity, multimodal AI, simulation, blockchain provenance and creator marketplace.
 
 Keep a source/assumption register, a model layer, a review layer and derived communication outputs. Stable IDs connect them. Access labels travel with the data. Maintain exportable local records and a documented exit path before selecting a hosted service.
 
@@ -118,15 +137,30 @@ Sequence: source and mandate → explicit model and handoffs → targeted valida
 
 Each slide and dashboard number must point back to this dossier and its model/run. Storyboard is not a delivered slide deck. No public publishing or external application is performed.
 
+## Qualification and method support
+
+The following are recorded program completions and candidate application routes, not proof of independent competence or implementation:
+- Columbia University — Construction Management (`recorded_completed`; QUAL-construction-management).
+- IBM — IBM Systems Analyst (`recorded_completed`; QUAL-ibm-systems-analyst).
+- Microsoft — Microsoft Data Architecture for Modern Data Stacks (`recorded_completed`; QUAL-microsoft-data-architecture-for-modern-data-stacks).
+- Stanford Online — From Product Strategy to Product Leadership (`recorded_completed`; QUAL-from-product-strategy-to-product-leadership).
+
+Methods are grounded only to the recorded source reading scope:
+- `M-SIPOC` — SIPOC i mapa przepływu; full local syllabus; module transcripts not read in this pass.
+- `M-RACI` — RACI i analiza interesariuszy; full local syllabus; module transcripts not read in this pass.
+- `M-MOSCOW` — MoSCoW i wymagania; full local syllabus; module transcripts not read in this pass.
+- `M-FEASIBILITY` — DFD, model stanów i build/buy; full local syllabus; module transcripts not read in this pass.
+- `M-MEASURE` — Dashboard jako wsparcie decyzji; full local syllabus; module transcripts not read in this pass.
+
 ## Provenance and authoring boundary
 
-This decision model was engineered within the Arxa Group R&D framework. All quantitative models operate on synthetic benchmark data preserving client confidentiality.
+This management model was authored with an AI agent from existing project sources, course materials and the approved user direction. It demonstrates the documented design and review process, not independent proof that the user performed every implementation step. All economic sample cases are synthetic.
 
 ## Multidimensional reinforcement and technical depth
 
 Management connects technical/domain depth to product, operating and capital decisions; it does not replace that depth. The following application mappings are candidate design hypotheses, not proven benefits or claims of independent competence.
 
-[Canonical mechanisms and evidence boundaries](#). [Full qualification records and source links](#). Program metadata has been reviewed; module-level support is not asserted for these candidate links.
+[Canonical mechanisms and evidence boundaries](../../../00.%20ARCHIVE%20SYSTEM/portfolio/REINFORCEMENT-MAP.yaml). [Full qualification records and source links](../../../00.%20ARCHIVE%20SYSTEM/portfolio/QUALIFICATION-INVENTORY.yaml). Program metadata has been reviewed; module-level support is not asserted for these candidate links.
 
 ### RF-04 — Infrastructure design and traceable change governance
 
