@@ -1,7 +1,7 @@
 # Test report
 
 Technical validation status: **passed on 2026-10-25**.  
-Source snapshot: `178b926e1d51520a9fc988f7791f6613144b6d46`.  
+Source snapshot: `563620dc9b412c2034d40fc1686f37fb0f04ff06`.  
 Reproduction command: `make validate`.
 
 ## Observed result
